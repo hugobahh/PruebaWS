@@ -1,0 +1,11 @@
+ Options +FollowSymLinks
+ RewriteEngine on
+ RewriteBase /
+
+# Reescribir la URL solicitada por el usuario
+#   Entrada:  calificacion/ID/
+#   Salida: calificacion.php?id=ID
+#RewriteRule ^calificacion/([0-9]+)$ /cnnTest/controllers/ControlDel.php?id=$1
+
+RewriteRule ^calificacion/([0-9]+)/([0-9]+)/?$ /cnnTest/Control/ControlEditar.php?id=$1&cal=$2
+
