@@ -10,6 +10,7 @@ PHP / POO / FPDO
 
 - Validación de datos al ingresar datos para registrar calififación.
 
+El nombre del directorio de trabajo  es "/var/www/html/cnnTest/"
 
 Para usar URL amigables en el archivo .htmaccess
 #===============================================
